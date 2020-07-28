@@ -12,4 +12,3 @@ class Pets(models.Model):
 	class Meta:
 		verbose_name = 'Питомцы'
 		verbose_name_plural = 'Питомец'
-		ordering = ['name']
